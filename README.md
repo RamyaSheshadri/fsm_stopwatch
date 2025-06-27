@@ -27,7 +27,10 @@ This project models a digital stopwatch that can:
 
 ---
 
-## 🔗 
+## fsm_controller code:
 <img width="403" alt="image" src="https://github.com/user-attachments/assets/13a4afaa-3448-4367-89eb-60e548e3def3" />
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/8d55299c-3135-40c4-aad1-104ec64d0bfc" />
+<img width="444" alt="image" src="https://github.com/user-attachments/assets/0745fd2e-a2cd-4180-bc81-d401c8174883" />
+
 
 
