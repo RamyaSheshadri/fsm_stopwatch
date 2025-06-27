@@ -1,11 +1,13 @@
 # FSM-Based Stopwatch Controller ⏱️ | Verilog + Vivado
 
 - A digital stopwatch implemented using Verilog HDL. 
--The design uses a 3-state Finite State Machine (FSM) to control a 2-digit BCD counter (00–99). 
--Fully simulated in Vivado with waveform validation.
+- The design uses a 3-state Finite State Machine (FSM) to control a 2-digit BCD counter (00–99). 
+- Fully simulated in Vivado with waveform validation.
+## 📌 Project Overview
 
+This project was developed as a part of my RTL design learning. It implements a stopwatch system using Verilog HDL, combining a finite state machine (FSM) controller with a BCD counter. The entire design was coded, simulated, and verified using Vivado.
 
-##  Project Overview
+The objective was to simulate basic control and counting logic, build modular RTL, and validate functionality using waveform simulation — all from a home setup without any external FPGA board.
 
 This project models a digital stopwatch that can:
 - **Start counting** from 00 to 99
