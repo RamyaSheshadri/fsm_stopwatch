@@ -12,6 +12,20 @@ This project models a digital stopwatch that can:
 - **Pause** and **resume**
 - **Reset** to 00
 
+  ## 🎯 Project Significance
+
+This project implements a stopwatch system using Verilog HDL, integrating a finite state machine (FSM) controller with a BCD counter. It showcases core digital design principles and simulation workflows used in RTL front-end roles.
+
+**Skills demonstrated:**
+- Finite State Machine design (IDLE, RUNNING, PAUSED states)
+- Modular Verilog design and code reusability
+- Control and datapath separation using hierarchical module integration
+- Functional simulation and waveform verification in Vivado
+- Testbench creation for validating timing and logic behavior
+
+This project reflects familiarity with the RTL design flow, including specification-based design, simulation, and debugging using industry-standard tools.
+
+
 ### 🧩 Modules Implemented:
 1. **fsm_controller.v**  
    FSM with 3 states: `IDLE`, `RUNNING`, `PAUSED`
@@ -26,6 +40,7 @@ This project models a digital stopwatch that can:
    Testbench simulating reset, start, pause, and resume actions
 
 ---
+
 
 ## output waveforms:
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/b04715c2-b26e-4434-9e52-2eac4caad4fd" />
