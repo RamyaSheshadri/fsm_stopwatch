@@ -28,7 +28,7 @@ This project implements a stopwatch system using Verilog HDL, integrating a fini
 This project reflects familiarity with the RTL design flow, including specification-based design, simulation, and debugging using industry-standard tools.
 
 
-###  Modules Implemented:
+## Modules Implemented:
 1. **fsm_controller.v**  
    FSM with 3 states: `IDLE`, `RUNNING`, `PAUSED`
 
@@ -44,7 +44,7 @@ This project reflects familiarity with the RTL design flow, including specificat
 ---
 
 
-## output waveforms:
+## Output waveforms:
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/b04715c2-b26e-4434-9e52-2eac4caad4fd" />
 
 ##  Simulation Output Explained
@@ -59,11 +59,11 @@ The waveform demonstrates the behavior of the FSM-based stopwatch under various 
   - `ones` counts from 0 to 9
   - On overflow, `tens` increments by 1 (modulo 10)
 
-###  Key Observations
+##  Key Observations
 - During `RUNNING`, counter values (`ones`, `tens`) increment as expected.
 - During `PAUSED`, counter **holds** its current value (frozen).
 - After pausing, when `start` is triggered again, counting resumes correctly.
 
-> This confirms that FSM control and BCD counter logic are functionally integrated and operating as expected.
+ This confirms that FSM control and BCD counter logic are functionally integrated and operating as expected.
 
 
