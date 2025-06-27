@@ -27,5 +27,7 @@ This project models a digital stopwatch that can:
 
 ---
 
-## 🔗 Module Connection Diagram
+## 🔗 
+<img width="403" alt="image" src="https://github.com/user-attachments/assets/13a4afaa-3448-4367-89eb-60e548e3def3" />
+
 
